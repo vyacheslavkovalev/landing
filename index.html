@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CJM 2026 — Митап Бюро Сучкова</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo" aria-label="Бюро Сучкова">
+        <img src="assets/logo.svg" alt="Бюро" width="28" height="28">
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <div class="hero__top-label">
+          23 апреля, 14:00 (мск), онлайн-платформа Pruffme
+        </div>
+        <h1 class="hero__title" id="hero-title">
+          Как собрать<br>управляемую воронку<br>девелопера
+        </h1>
+        <div class="hero__bottom">
+          <p class="hero__desc">
+            Если вы хотите системно с этим разобраться и понять, как на это влиять —
+            приглашаем на первый митап сезона CJM 2026
+          </p>
+          <a href="#registration-form" class="btn-primary">
+            Зарегистрироваться
+            <span class="btn-icon" aria-hidden="true">
+              <img src="assets/circle.svg" class="btn-icon__circle" alt="" width="24" height="25">
+              <img src="assets/reg_arrow.svg" class="btn-icon__arrow" alt="" width="16" height="15">
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Bento cards -->
+      <div class="bento">
+        <div class="bento__inner">
+          <article class="bento-card bento-card--1">
+            <div class="bento-card__icon">
+              <img src="assets/bento-icon-1.svg" alt="" width="38" height="34" aria-hidden="true">
+            </div>
+            <div class="bento-card__body">
+              <h3 class="bento-card__title">Новый сезон</h3>
+            </div>
+          </article>
+          <article class="bento-card bento-card--2">
+            <div class="bento-card__icon">
+              <img src="assets/bento-icon-2.svg" alt="" width="34" height="38" aria-hidden="true">
+            </div>
+            <div class="bento-card__body">
+              <h3 class="bento-card__title">Вопрос-ответ</h3>
+            </div>
+          </article>
+          <article class="bento-card bento-card--3">
+            <div class="bento-card__icon">
+              <img src="assets/bento-icon-3.svg" alt="" width="34" height="38" aria-hidden="true">
+            </div>
+            <div class="bento-card__body">
+              <h3 class="bento-card__title">Разбор кейсов</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROGRAM ===================== -->
+    <section class="program" aria-labelledby="program-title">
+      <div class="program__inner">
+        <div class="program__left">
+          <h2 class="program__title" id="program-title">
+            Разберем<br>системный<br>подход<br>к управлению<br>воронкой<br>через CJM:
+          </h2>
+        </div>
+        <ol class="program__list" aria-label="Программа митапа">
+          <li class="program__item">
+            <span class="program__num">01</span>
+            <span class="program__text">Как синхронизировать отделы вокруг пути клиента</span>
+            <img src="assets/icon-check-1.svg" alt="" width="13" height="13" aria-hidden="true">
+          </li>
+          <li class="program__item">
+            <span class="program__num">02</span>
+            <span class="program__text">Где возникают потери лидов и конверсии</span>
+            <img src="assets/icon-check-2.svg" alt="" width="13" height="13" aria-hidden="true">
+          </li>
+          <li class="program__item">
+            <span class="program__num">03</span>
+            <span class="program__text">Какие управленческие решения дают наибольший эффект</span>
+            <img src="assets/icon-check-3.svg" alt="" width="13" height="13" aria-hidden="true">
+          </li>
+          <li class="program__item">
+            <span class="program__num">04</span>
+            <span class="program__text">Разбор на практике: кейсы</span>
+            <img src="assets/icon-check-4.svg" alt="" width="13" height="13" aria-hidden="true">
+          </li>
+          <li class="program__item">
+            <span class="program__num">05</span>
+            <span class="program__text">Q&amp;A c Сашей и Аленой</span>
+            <img src="assets/icon-check-5.svg" alt="" width="13" height="13" aria-hidden="true">
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== SPEAKERS ===================== -->
+    <section class="speakers" aria-labelledby="speakers-title">
+      <div class="speakers__inner">
+        <p class="speakers__label" id="speakers-title">Спикеры</p>
+        <div class="speakers__cards-wrap">
+          <div class="speakers__grid">
+
+            <article class="speaker-card">
+              <div class="speaker-card__photo">
+                <img src="assets/speaker-sasha.png" alt="Саша Сучков">
+              </div>
+              <div class="speaker-card__info">
+                <h3 class="speaker-card__name">Саша Сучков</h3>
+                <p class="speaker-card__role">СЕО Бюро Сучкова</p>
+              </div>
+            </article>
+
+            <article class="speaker-card">
+              <div class="speaker-card__photo">
+                <img src="assets/speaker-maria.png" alt="Мария Кара">
+              </div>
+              <div class="speaker-card__info">
+                <h3 class="speaker-card__name">Мария Кара</h3>
+                <p class="speaker-card__role">Хед отдела стратегий</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== REGISTRATION ===================== -->
+    <section class="registration" id="registration-form" aria-labelledby="reg-title">
+      <div class="registration__inner">
+
+        <div class="registration__left">
+          <h2 class="registration__title" id="reg-title">
+            Регистрация<br>на митап
+          </h2>
+          <p class="registration__desc">
+            Оставьте ваши контактные данные и переходите в бот для завершения
+            регистрации. Если вы уже используете бот, просто нажмите \start
+          </p>
+          <div class="registration__meta">
+            <div class="registration__meta-item">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <rect x="1" y="3" width="14" height="12" rx="1.5" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
+                <path d="M5 1v4M11 1v4M1 8h14" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <span>23 апреля 2026</span>
+            </div>
+            <div class="registration__meta-item">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <circle cx="8" cy="8" r="6.25" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
+                <path d="M8 4.5V8l2.5 2.5" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span>14:00 МСК, Pruffme</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="registration__form-wrap">
+          <div class="registration__form-card">
+            <form id="reg-form" novalidate>
+
+              <div class="form-field">
+                <label class="form-label" for="f-name">ВАШЕ ИМЯ</label>
+                <input class="form-input" type="text" id="f-name" name="name"
+                       placeholder="Иван Иванов" required autocomplete="name">
+                <span class="form-error" role="alert"></span>
+              </div>
+
+              <div class="form-row">
+                <div class="form-field">
+                  <label class="form-label" for="f-company">КОМПАНИЯ</label>
+                  <input class="form-input" type="text" id="f-company" name="company"
+                         placeholder="Buro Development" autocomplete="organization">
+                </div>
+                <div class="form-field">
+                  <label class="form-label" for="f-position">ДОЛЖНОСТЬ</label>
+                  <input class="form-input" type="text" id="f-position" name="position"
+                         placeholder="Head of Sales" autocomplete="organization-title">
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label class="form-label" for="f-email">EMAIL</label>
+                <input class="form-input" type="email" id="f-email" name="email"
+                       placeholder="ivan@company.ru" required autocomplete="email">
+                <span class="form-error" role="alert"></span>
+              </div>
+
+              <button class="btn-submit" type="submit">
+                ЗАРЕГИСТРИРОВАТЬСЯ
+              </button>
+
+              <p class="form-disclaimer">
+                Регистрируясь на митап, я даю согласие на обработку персональных данных
+                Бюро Сучкова в соответствии с политикой конфиденциальности
+              </p>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <a href="/" class="footer__logo" aria-label="Бюро Сучкова — главная">
+        <img src="assets/logo.svg" alt="Бюро" width="28" height="28">
+      </a>
+      <p class="footer__copy">© 2026 Бюро Сучкова</p>
+      <nav class="footer__nav" aria-label="Ссылки">
+        <a class="footer__link" href="https://bureausuchkov.com/" target="_blank" rel="noopener">Сайт</a>
+        <a class="footer__link" href="https://t.me/suchkovbureau" target="_blank" rel="noopener">Telegram-канал</a>
+        <a class="footer__link" href="https://www.youtube.com/@bureausuchkov" target="_blank" rel="noopener">Youtube</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
