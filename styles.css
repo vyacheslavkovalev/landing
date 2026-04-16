@@ -378,7 +378,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 }
 
 .speakers__label {
-  font-family: 'TT Travels Next Trial Variable', 'TT Travels Next Trl', var(--font-main);
+  font-family: 'TT Travels Next Trial', 'TT Travels Trial', sans-serif;
   font-style: normal;
   font-size: 24px;
   font-weight: 700;
